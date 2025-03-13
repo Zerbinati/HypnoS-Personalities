@@ -1,0 +1,20 @@
+{
+    "name": "Sergey Karjakin",
+    "description": "An ultra-solid and resilient player, known for deep defensive skills, counterplay precision, and strong endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2616,
+    "PersonalityBook": true,
+    "BookFile": "books/karjakin.bin",
+    "BookWidth": 7,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 90,
+        "PieceActivity": 65,
+        "PawnStructure": 85,
+        "KnightPair": 60,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

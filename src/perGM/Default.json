@@ -1,0 +1,22 @@
+{
+    "name": "Default",
+    "PersonalityBook": true,
+    "BookFile": "books/default.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 45,
+        "RiskTaking": 42,
+        "KingSafety": 15,
+        "PieceActivity": 45,
+        "PawnStructure": 30,
+        "KnightPair": 40,
+        "BishopPair": 42,
+        "Defense": 25,
+        "CalculationDepth": 18,
+        "EndgameKnowledge": 40,
+        "PieceSacrifice": 48
+    }
+}
+
+

@@ -1,0 +1,20 @@
+{
+    "name": "Lev Polugaevsky",
+    "description": "A deeply prepared and dynamic player, known for sharp opening play, strong calculation, and attacking chess.",
+    "Use Personality": true,
+    "Elo Rating": 2761,
+    "PersonalityBook": true,
+    "BookFile": "books/polugaevsky.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

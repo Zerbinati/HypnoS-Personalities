@@ -1,0 +1,20 @@
+{
+    "name": "Efim Bogoljubow",
+    "description": "A dynamic and aggressive player, known for tactical creativity, attacking play, and bold strategic choices.",
+    "Use Personality": true,
+    "Elo Rating": 2768,
+    "PersonalityBook": true,
+    "BookFile": "books/bogoljubow.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

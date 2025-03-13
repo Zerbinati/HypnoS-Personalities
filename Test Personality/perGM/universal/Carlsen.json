@@ -1,0 +1,20 @@
+{
+    "name": "Magnus Carlsen",
+    "description": "A universal and highly resilient player, known for deep positional play, endgame mastery, and relentless pressure.",
+    "Use Personality": true,
+    "Elo Rating": 2833,
+    "PersonalityBook": true,
+    "BookFile": "books/carlsen.bin",
+    "BookWidth": 10,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 60,
+        "RiskTaking": 50,
+        "KingSafety": 80,
+        "PieceActivity": 75,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

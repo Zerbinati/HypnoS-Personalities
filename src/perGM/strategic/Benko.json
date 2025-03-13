@@ -1,0 +1,20 @@
+{
+    "name": "Pal Benko",
+    "description": "A highly strategic and theoretical player, known for deep opening preparation, strong endgame technique, and positional mastery.",
+    "Use Personality": true,
+    "Elo Rating": 2687,
+    "PersonalityBook": true,
+    "BookFile": "books/benko.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 45,
+        "RiskTaking": 40,
+        "KingSafety": 75,
+        "PieceActivity": 70,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

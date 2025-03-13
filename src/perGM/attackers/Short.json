@@ -1,0 +1,20 @@
+{
+    "name": "Nigel Short",
+    "description": "An aggressive and dynamic player, known for strong king attacks, deep calculation, and creative strategic ideas.",
+    "Use Personality": true,
+    "Elo Rating": 2750,
+    "PersonalityBook": true,
+    "BookFile": "books/short.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

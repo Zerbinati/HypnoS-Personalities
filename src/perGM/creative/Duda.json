@@ -1,0 +1,20 @@
+{
+    "name": "Jan-Krzysztof Duda",
+    "description": "A dynamic and creative player, known for sharp tactical play, strong calculation, and great defensive skills.",
+    "Use Personality": true,
+    "Elo Rating": 2739,
+    "PersonalityBook": true,
+    "BookFile": "books/duda.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 60,
+        "PieceActivity": 85,
+        "PawnStructure": 70,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

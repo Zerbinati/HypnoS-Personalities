@@ -1,0 +1,260 @@
+1️⃣ Influenza dell'aggressività (bonus per la mobilità centrale dei pezzi)
+cpp
+Copia
+Modifica
+Score centralControl = mobility[WHITE] - mobility[BLACK];
+score += scale_by(centralControl, dynamicAggressiveness / 10);
+✅ Cosa fa?
+
+Misura quanto bene i pezzi controllano il centro della scacchiera.
+Il valore di centralControl è positivo se il Bianco controlla più il centro, negativo se lo fa il Nero.
+Se Aggressiveness è alto, il motore premia un buon controllo centrale.
+📌 Effetto in partita:
+
+Un giocatore con alto Aggressiveness cercherà di dominare il centro.
+Un valore basso porta a uno stile più posizionale e meno dinamico.
+2️⃣ Bonus per le torri sulle colonne aperte
+cpp
+Copia
+Modifica
+Score openFiles = make_score(
+    pos.is_on_semiopen_file(WHITE, pos.square<ROOK>(WHITE)) ? dynamicOpenFileControl : 0,
+    pos.is_on_semiopen_file(BLACK, pos.square<ROOK>(BLACK)) ? dynamicOpenFileControl : 0
+);
+score += scale_by(openFiles, dynamicRiskTaking / 10);
+✅ Cosa fa?
+
+Controlla se le torri sono posizionate su colonne semiaperte.
+Se OpenFileControl è alto, il motore dà più importanza a questo criterio.
+L'influenza di questo valore è regolata anche da RiskTaking.
+📌 Effetto in partita:
+
+Un motore con alto RiskTaking userà più le colonne aperte per attaccare.
+Se RiskTaking è basso, sarà più cauto nel posizionare le torri.
+3️⃣ Penalità per il re esposto
+cpp
+Copia
+Modifica
+Score exposedKing = make_score(pos.king_safety(WHITE), pos.king_safety(BLACK));
+score -= scale_by(exposedKing, dynamicKingSafety / 20);
+✅ Cosa fa?
+
+Misura quanto è sicuro il re di ciascun colore.
+Se KingSafety è alto, il motore eviterà di lasciare il re esposto.
+📌 Effetto in partita:
+
+Se KingSafety è alto, il motore arrocca presto e mantiene il re protetto.
+Se è basso, potrebbe rischiare arrocci tardivi o addirittura restare al centro.
+4️⃣ Mobilità dei pezzi
+cpp
+Copia
+Modifica
+Score localMobility = make_score(mobility[WHITE], mobility[BLACK]);
+score += scale_by(localMobility, dynamicPieceActivity / 10);
+✅ Cosa fa?
+
+Misura quanti movimenti hanno i pezzi di ogni colore.
+Se PieceActivity è alto, il motore valorizza le posizioni con più libertà di movimento.
+📌 Effetto in partita:
+
+Un motore con alta PieceActivity cercherà spazi aperti e manovre attive.
+Se è bassa, giocherà in modo più chiuso e bloccato.
+5️⃣ Solidità della struttura pedonale
+cpp
+Copia
+Modifica
+score += scale_by(pe->pawn_score(WHITE) - pe->pawn_score(BLACK), dynamicPawnStructure / 10);
+✅ Cosa fa?
+
+Valuta la qualità della struttura pedonale.
+Penalizza pedoni doppiati, isolati o deboli.
+📌 Effetto in partita:
+
+Un motore con alto PawnStructure eviterà di indebolire i pedoni.
+Se è basso, potrebbe sacrificare la struttura per ottenere vantaggi dinamici.
+6️⃣ Bonus per la coppia di cavalli
+cpp
+Copia
+Modifica
+if (pos.count<KNIGHT>(WHITE) >= 2 || pos.count<KNIGHT>(BLACK) >= 2) {
+    score += make_score(dynamicKnightPair, dynamicKnightPair);
+}
+✅ Cosa fa?
+
+Premia avere due cavalli.
+📌 Effetto in partita:
+
+Un motore con alto KnightPair terrà i cavalli sulla scacchiera.
+Se è basso, potrebbe scambiarli più facilmente.
+7️⃣ Bonus per la coppia di alfieri
+cpp
+Copia
+Modifica
+if (pos.count<BISHOP>(WHITE) >= 2 || pos.count<BISHOP>(BLACK) >= 2) {
+    score += make_score(dynamicBishopPair, dynamicBishopPair);
+}
+✅ Cosa fa?
+
+Premia la coppia di alfieri, utile nelle posizioni aperte.
+📌 Effetto in partita:
+
+Se BishopPair è alto, il motore eviterà di scambiare gli alfieri.
+Se è basso, non si preoccuperà troppo di perdere la coppia.
+8️⃣ Bonus per uno stile difensivo
+cpp
+Copia
+Modifica
+score += make_score(dynamicDefense / 2, dynamicDefense / 2);
+✅ Cosa fa?
+
+Se Defense è alto, il motore tenderà a difendersi meglio e prendere meno rischi.
+📌 Effetto in partita:
+
+Un motore difensivo accetta più facilmente posizioni solide ma passive.
+9️⃣ Bonus per la conoscenza dei finali
+cpp
+Copia
+Modifica
+if (pos.non_pawn_material(WHITE) + pos.non_pawn_material(BLACK) <= 10) { 
+    score += make_score(dynamicEndgameKnowledge / 5, dynamicEndgameKnowledge / 5);
+}
+✅ Cosa fa?
+
+Se ci sono meno di 10 pezzi sulla scacchiera, viene attivato un bonus per i finali.
+📌 Effetto in partita:
+
+Se EndgameKnowledge è alto, il motore gioca meglio i finali.
+Se è basso, potrebbe avere difficoltà in questa fase.
+🔟 Bonus per sacrifici di pezzi
+cpp
+Copia
+Modifica
+if (pieceSacrifice != 0 && pos.game_ply() > 10) {  
+    Score attackBonus = make_score(dynamicPieceSacrifice / 2, dynamicPieceSacrifice / 4);
+    score += attackBonus;
+}
+✅ Cosa fa?
+
+Se PieceSacrifice è alto, il motore è più propenso ai sacrifici tattici.
+📌 Effetto in partita:
+
+Con un valore alto, il motore giocherà come Tal, con sacrifici dinamici.
+Se è basso, sarà più prudente.
+🔟+1 Penalità per posizioni chiuse
+cpp
+Copia
+Modifica
+Score closedPositions = make_score(
+    pos.count<PAWN>(WHITE) - pos.count<PAWN>(BLACK),
+    pos.count<PAWN>(BLACK) - pos.count<PAWN>(WHITE)
+);
+score += scale_by(closedPositions, dynamicPositionClosure / 10);
+✅ Cosa fa?
+
+Se PositionClosure è alto, il motore favorisce posizioni chiuse.
+📌 Effetto in partita:
+
+Un motore con valore alto giocherà come Petrosian, chiudendo la posizione.
+
+Influenza sulla tendenza agli scambi
+cpp
+Copia
+Modifica
+// Influenza sulla tendenza agli scambi (usiamo il materiale totale)
+Score tradePreference = make_score(pos.non_pawn_material(WHITE), pos.non_pawn_material(BLACK));
+score += scale_by(tradePreference, dynamicPieceTrade / 10);
+✅ Cosa fa?
+
+Misura la quantità di materiale non pedonale (pezzi) per ciascun giocatore.
+Se PieceTrade è alto, il motore favorisce gli scambi di pezzi.
+Se è basso, il motore eviterà gli scambi e manterrà i pezzi sulla scacchiera.
+📌 Effetto in partita:
+
+Un motore con alto PieceTrade sarà più incline a semplificare la posizione scambiando i pezzi.
+Un motore con basso PieceTrade giocherà come Tal o Kasparov, mantenendo il massimo numero di pezzi attivi.
+2️⃣ Bonus per attacchi al re
+cpp
+Copia
+Modifica
+// Bonus per attacchi al re (contiamo gli attaccanti sul re con popcount)
+Score attackOnKing = make_score(
+    popcount(pos.attackers_to(pos.king_square(WHITE))),
+    popcount(pos.attackers_to(pos.king_square(BLACK)))
+);
+score += scale_by(attackOnKing, dynamicKingAttack / 10);
+✅ Cosa fa?
+
+Conta il numero di pezzi che attaccano il re avversario.
+Se KingAttack è alto, il motore valorizza attacchi diretti al re.
+Se è basso, l’aggressività sugli arrocci è ridotta.
+📌 Effetto in partita:
+
+Se il valore KingAttack è alto, il motore cercherà attacchi diretti al re.
+Se è basso, il motore preferirà posizioni più posizionali e meno speculative.
+3️⃣ Profilassi (prevenzione dei piani avversari)
+cpp
+Copia
+    // Profilassi (basata sulla mobilità dei pezzi)
+    Score prophylacticPlay = make_score(
+        pos.psq_score(),  // Valore per il Bianco
+        pos.psq_score()   // Valore per il Nero
+    );
+    score -= scale_by(prophylacticPlay, dynamicProfilaxis / 10);
+✅ Cosa fa?
+
+Usa il Piece-Square Table (PST) Score per valutare quanto bene sono posizionati i pezzi sulla scacchiera.
+Se Profilaxis è alto, il motore darà più peso a posizioni sicure e preventive.
+📌 Effetto in partita:
+
+Un motore con alto Profilaxis sarà più prudente e difensivo, evitando di lasciare pezzi vulnerabili.
+Se il valore è basso, il motore sarà più dinamico e meno attento ai piani dell'avversario.
+4️⃣ Sacrifici posizionali
+cpp
+Copia
+Modifica
+// Sacrifici posizionali
+if (positionalSacrifice != 0 && pos.game_ply() > 10) {
+    Score sacBonus = make_score(dynamicPositionalSacrifice / 2, dynamicPositionalSacrifice / 4);
+    score += sacBonus;
+}
+✅ Cosa fa?
+
+Se PositionalSacrifice è alto, il motore è più propenso a sacrificare materiale per ottenere vantaggi strategici.
+Il sacrificio viene incoraggiato solo dopo 10 mosse, per evitare errori precoci.
+📌 Effetto in partita:
+
+Se PositionalSacrifice è alto, il motore giocherà come Tal o Shirov, sacrificando pezzi per l’iniziativa.
+Se è basso, il motore sarà più materialista, evitando sacrifici rischiosi.
+5️⃣ Tendenza a preferire Cavalli o Alfieri
+cpp
+Copia
+Modifica
+// Tendenza a preferire Cavalli o Alfieri
+Score bishopVsKnight = make_score(
+    dynamicKnightVsBishop * (pos.count<KNIGHT>(WHITE) - pos.count<BISHOP>(WHITE)),
+    dynamicKnightVsBishop * (pos.count<KNIGHT>(BLACK) - pos.count<BISHOP>(BLACK))
+);
+score += bishopVsKnight;
+✅ Cosa fa?
+
+Se KnightVsBishop è positivo, il motore preferisce i cavalli.
+Se è negativo, favorisce gli alfieri.
+📌 Effetto in partita:
+
+Se KnightVsBishop > 0, il motore eviterà scambi di cavalli e favorirà posizioni chiuse.
+Se KnightVsBishop < 0, il motore preferirà posizioni aperte e giochi con gli alfieri.
+6️⃣ Influenza sulla spinta dei pedoni
+cpp
+Copia
+Modifica
+// Influenza sulla spinta dei pedoni
+Score pawnPushes = make_score(pos.count<PAWN>(WHITE), pos.count<PAWN>(BLACK));
+score += scale_by(pawnPushes, dynamicPawnPush / 10);
+✅ Cosa fa?
+
+Misura quanti pedoni si sono mossi rispetto alla posizione iniziale.
+Se PawnPush è alto, il motore darà più importanza a spingere i pedoni.
+📌 Effetto in partita:
+
+Un motore con alto PawnPush giocherà come Spassky o Fischer, cercando di aprire le linee.
+Se è basso, il motore manterrà la struttura pedonale solida e compatta.

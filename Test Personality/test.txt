@@ -1,0 +1,23 @@
+🎭 HypnoS Personality Analysis Report
+========================================
+Aggressiveness: Expected 30, Deviation 50 → 🔺 Exceptionally higher than expected.
+RiskTaking: Expected 30, Deviation 50 → 🔺 Exceptionally higher than expected.
+KingSafety: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PieceActivity: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PawnStructure: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+KnightPair: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+BishopPair: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+Defense: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+CalculationDepth: Expected 14, Deviation 50 → 🔺 Exceptionally higher than expected.
+EndgameKnowledge: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PieceSacrifice: Expected 45, Deviation 50 → 🔺 Exceptionally higher than expected.
+CenterControl: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PositionClosure: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PieceTrade: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+KingAttack: Expected 45, Deviation 50 → 🔺 Exceptionally higher than expected.
+PositionalSacrifice: Expected 18, Deviation 50 → 🔺 Exceptionally higher than expected.
+KnightVsBishop: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+PawnPush: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+OpenFileControl: Expected 10, Deviation 50 → 🔺 Exceptionally higher than expected.
+
+♟️ **Detected playstyle:** **ATTACKERS** ♜

@@ -1,0 +1,20 @@
+{
+    "name": "Jan Timman",
+    "description": "A universal and creative player, known for deep strategic play, strong endgames, and attacking flair when needed.",
+    "Use Personality": true,
+    "Elo Rating": 2768,
+    "PersonalityBook": true,
+    "BookFile": "books/timman.bin",
+    "BookWidth": 9,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 55,
+        "RiskTaking": 50,
+        "KingSafety": 65,
+        "PieceActivity": 75,
+        "PawnStructure": 70,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

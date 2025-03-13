@@ -1,0 +1,20 @@
+{
+    "name": "Harry Pillsbury",
+    "description": "A brilliant attacking player, known for deep tactics, rapid development, and dynamic play.",
+    "Use Personality": true,
+    "Elo Rating": 2816,
+    "PersonalityBook": true,
+    "BookFile": "books/pillsbury.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 65,
+        "KingSafety": -10,
+        "PieceActivity": 85,
+        "PawnStructure": 45,
+        "KnightPair": 50,
+        "BishopPair": 50
+    },
+    "loss_streak": 0
+}

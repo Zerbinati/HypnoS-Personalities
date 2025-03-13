@@ -1,0 +1,20 @@
+{
+    "name": "Joseph Blackburne",
+    "description": "A fearless attacking player, known for brilliant sacrifices, open positions, and relentless tactical play.",
+    "Use Personality": true,
+    "Elo Rating": 2748,
+    "PersonalityBook": true,
+    "BookFile": "books/blackburne.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 90,
+        "KingSafety": 40,
+        "PieceActivity": 90,
+        "PawnStructure": 50,
+        "KnightPair": 60,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

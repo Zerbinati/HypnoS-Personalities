@@ -1,0 +1,20 @@
+{
+    "name": "Lajos Portisch",
+    "description": "A highly solid and positional player, known for deep theoretical knowledge, strong endgames, and strategic precision.",
+    "Use Personality": true,
+    "Elo Rating": 2757,
+    "PersonalityBook": true,
+    "BookFile": "books/portisch.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 85,
+        "PieceActivity": 65,
+        "PawnStructure": 80,
+        "KnightPair": 50,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Frank Marshall",
+    "description": "A bold and tactical genius, known for unexpected sacrifices, aggressive attacks, and opening innovations.",
+    "Use Personality": true,
+    "Elo Rating": 2762,
+    "PersonalityBook": true,
+    "BookFile": "books/marshall.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 90,
+        "KingSafety": 40,
+        "PieceActivity": 88,
+        "PawnStructure": 50,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

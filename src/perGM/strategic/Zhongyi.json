@@ -1,0 +1,20 @@
+{
+    "name": "Tan Zhongyi",
+    "description": "A resilient and strategic player, known for strong defense, deep calculation, and practical attacking play.",
+    "Use Personality": true,
+    "Elo Rating": 2561,
+    "PersonalityBook": true,
+    "BookFile": "books/zhongyi.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 55,
+        "RiskTaking": 50,
+        "KingSafety": 75,
+        "PieceActivity": 70,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

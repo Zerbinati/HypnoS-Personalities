@@ -1,0 +1,20 @@
+{
+    "name": "Viswanathan Anand",
+    "description": "A universal and dynamic player, known for rapid calculation, strong preparation, and attacking precision.",
+    "Use Personality": true,
+    "Elo Rating": 2750,
+    "PersonalityBook": true,
+    "BookFile": "books/anand.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 40,
+        "KingSafety": 50,
+        "PieceActivity": 80,
+        "PawnStructure": 60,
+        "KnightPair": 40,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Siegbert Tarrasch",
+    "description": "A strategic and classical player, known for principled play and logical development.",
+    "Use Personality": true,
+    "Elo Rating": 2824,
+    "PersonalityBook": true,
+    "BookFile": "books/tarrasch.bin",
+    "BookWidth": 8,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": 35,
+        "RiskTaking": 20,
+        "KingSafety": 70,
+        "PieceActivity": 65,
+        "PawnStructure": 75,
+        "KnightPair": 45,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

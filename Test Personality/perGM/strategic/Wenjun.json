@@ -1,0 +1,20 @@
+{
+    "name": "Ju Wenjun",
+    "description": "A solid and strategic player, known for deep opening preparation, strong positional play, and excellent endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2561,
+    "PersonalityBook": true,
+    "BookFile": "books/wenjun.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 40,
+        "KingSafety": 80,
+        "PieceActivity": 70,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

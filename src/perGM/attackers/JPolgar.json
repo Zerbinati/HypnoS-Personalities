@@ -1,0 +1,20 @@
+{
+    "name": "Judit Polgar",
+    "description": "A highly aggressive and tactical player, known for fearless attacks, deep calculation, and dynamic piece play.",
+    "Use Personality": true,
+    "Elo Rating": 2675,
+    "PersonalityBook": true,
+    "BookFile": "books/jpolgar.bin",
+    "BookWidth": 13,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 85,
+        "KingSafety": 50,
+        "PieceActivity": 90,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

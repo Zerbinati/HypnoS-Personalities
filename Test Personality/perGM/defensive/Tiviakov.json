@@ -1,0 +1,20 @@
+{
+    "name": "Sergei Tiviakov",
+    "description": "An ultra-solid and positional player, known for strong prophylaxis, deep opening knowledge, and great defensive skills.",
+    "Use Personality": true,
+    "Elo Rating": 2531,
+    "PersonalityBook": true,
+    "BookFile": "books/tiviakov.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": 40,
+        "RiskTaking": 30,
+        "KingSafety": 90,
+        "PieceActivity": 65,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

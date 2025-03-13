@@ -1,0 +1,20 @@
+{
+    "name": "Alexander Morozevich",
+    "description": "A highly creative and aggressive player, known for unorthodox openings, dynamic attacks, and unpredictable play.",
+    "Use Personality": true,
+    "Elo Rating": 2768,
+    "PersonalityBook": true,
+    "BookFile": "books/morozevich.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 85,
+        "KingSafety": 40,
+        "PieceActivity": 90,
+        "PawnStructure": 45,
+        "KnightPair": 65,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

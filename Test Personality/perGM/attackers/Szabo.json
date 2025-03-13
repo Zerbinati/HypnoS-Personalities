@@ -1,0 +1,20 @@
+{
+    "name": "L\u00e1szl\u00f3 Szab\u00f3",
+    "description": "A dynamic and aggressive player, known for sharp attacking play, deep tactical vision, and energetic piece activity.",
+    "Use Personality": true,
+    "Elo Rating": 2726,
+    "PersonalityBook": true,
+    "BookFile": "books/szabo.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

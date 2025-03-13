@@ -1,0 +1,20 @@
+{
+    "name": "Michael Adams",
+    "description": "A highly solid and positional player, known for precise maneuvering, strong defense, and deep strategic understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2644,
+    "PersonalityBook": true,
+    "BookFile": "books/adams.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 85,
+        "PieceActivity": 65,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

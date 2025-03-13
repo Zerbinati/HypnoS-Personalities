@@ -1,0 +1,20 @@
+{
+    "name": "Nodirbek Abdusattorov",
+    "description": "A dynamic and universal player, known for strong calculation, deep opening preparation, and strategic flexibility.",
+    "Use Personality": true,
+    "Elo Rating": 2766,
+    "PersonalityBook": true,
+    "BookFile": "books/abdusattorov.bin",
+    "BookWidth": 10,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 70,
+        "RiskTaking": 65,
+        "KingSafety": 60,
+        "PieceActivity": 80,
+        "PawnStructure": 75,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

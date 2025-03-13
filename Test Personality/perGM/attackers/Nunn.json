@@ -1,0 +1,20 @@
+{
+    "name": "John Nunn",
+    "description": "A dynamic and tactical player, known for sharp calculations, deep opening preparation, and strong attacking play.",
+    "Use Personality": true,
+    "Elo Rating": 2715,
+    "PersonalityBook": true,
+    "BookFile": "books/nunn.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Aron Nimzowitsch",
+    "description": "A hypermodern and positional player, known for prophylaxis, piece maneuvering, and deep strategic concepts.",
+    "Elo_Note": "Suggested Elo: 2780",
+    "PersonalityBook": true,
+    "BookFile": "books/nimzowitsch.bin",
+    "BookWidth": 7,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 18,
+        "RiskTaking": 15,
+        "KingSafety": 12,
+        "PieceActivity": 45,
+        "PawnStructure": 32,
+        "KnightPair": 30,
+        "BishopPair": 28,
+        "Defense": 30,
+        "CalculationDepth": 9,
+        "EndgameKnowledge": 45,
+        "PieceSacrifice": 18,
+        "CenterControl": 35,
+        "PositionClosure": 40,
+        "PieceTrade": 25,
+        "KingAttack": 10,
+        "Profilaxis": 50,
+        "PositionalSacrifice": 20,
+        "KnightVsBishop": 10,
+        "PawnPush": 25,
+        "OpenFileControl": 30
+    },
+    "loss_streak": 0
+}

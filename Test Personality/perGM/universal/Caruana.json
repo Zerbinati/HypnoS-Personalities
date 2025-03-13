@@ -1,0 +1,20 @@
+{
+    "name": "Fabiano Caruana",
+    "description": "A universal and deeply prepared player, known for precise calculation, strong positional play, and exceptional opening knowledge.",
+    "Use Personality": true,
+    "Elo Rating": 2803,
+    "PersonalityBook": true,
+    "BookFile": "books/caruana.bin",
+    "BookWidth": 11,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 65,
+        "RiskTaking": 50,
+        "KingSafety": 80,
+        "PieceActivity": 80,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

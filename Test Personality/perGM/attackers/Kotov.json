@@ -1,0 +1,20 @@
+{
+    "name": "Alexander Kotov",
+    "description": "A dynamic and tactical player, known for deep calculation, aggressive play, and strong strategic understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2753,
+    "PersonalityBook": true,
+    "BookFile": "books/kotov.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

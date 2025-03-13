@@ -1,0 +1,20 @@
+{
+    "name": "Ruslan Ponomariov",
+    "description": "A highly positional and strategic player, known for deep preparation, strong endgame play, and solid decision-making.",
+    "Use Personality": true,
+    "Elo Rating": 2753,
+    "PersonalityBook": true,
+    "BookFile": "books/ponomariov.bin",
+    "BookWidth": 9,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 15,
+        "RiskTaking": -5,
+        "KingSafety": 80,
+        "PieceActivity": 75,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

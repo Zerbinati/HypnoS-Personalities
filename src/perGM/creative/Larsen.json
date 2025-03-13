@@ -1,0 +1,20 @@
+{
+    "name": "Bent Larsen",
+    "description": "A highly creative and independent player, known for original openings, dynamic play, and deep strategic understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2755,
+    "PersonalityBook": true,
+    "BookFile": "books/larsen.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 70,
+        "RiskTaking": 75,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

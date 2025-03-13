@@ -1,0 +1,20 @@
+{
+    "name": "Hou Yifan",
+    "description": "A universal and strategic player, known for deep opening preparation, strong positional understanding, and precise endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2633,
+    "PersonalityBook": true,
+    "BookFile": "books/yifan.bin",
+    "BookWidth": 9,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 55,
+        "RiskTaking": 45,
+        "KingSafety": 80,
+        "PieceActivity": 75,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

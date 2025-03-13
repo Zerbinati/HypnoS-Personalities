@@ -1,0 +1,20 @@
+{
+    "name": "Veselin Topalov",
+    "description": "A highly aggressive and dynamic player, known for relentless attacks, tactical ingenuity, and energetic play.",
+    "Use Personality": true,
+    "Elo Rating": 2773,
+    "PersonalityBook": true,
+    "BookFile": "books/topalov.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 80,
+        "KingSafety": 45,
+        "PieceActivity": 90,
+        "PawnStructure": 50,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

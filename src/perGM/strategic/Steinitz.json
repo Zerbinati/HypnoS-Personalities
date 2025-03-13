@@ -1,0 +1,20 @@
+{
+    "name": "Wilhelm Steinitz",
+    "description": "A strategic and positional player, known for systematic accumulation of small advantages and deep positional understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2826,
+    "PersonalityBook": true,
+    "BookFile": "books/steinitz.bin",
+    "BookWidth": 6,
+    "BookDepth": 14,
+    "evaluation": {
+        "Aggressiveness": -15,
+        "RiskTaking": -25,
+        "KingSafety": 75,
+        "PieceActivity": 45,
+        "PawnStructure": 85,
+        "KnightPair": 50,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

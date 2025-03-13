@@ -1,0 +1,46 @@
+🎭 HypnoS Personality Analysis Report
+========================================
+Aggressiveness: Expected 30, Deviation 50 → 🔺 Significantly higher than expected.
+RiskTaking: Expected 30, Deviation 50 → 🔺 Significantly higher than expected.
+KingSafety: Expected 10, Deviation 50 → 🔺 Significantly higher than expected.
+PieceActivity: Expected 40, Deviation 50 → 🔺 Significantly higher than expected.
+PawnStructure: Expected 15, Deviation 50 → 🔺 Significantly higher than expected.
+KnightPair: Expected 38, Deviation 50 → 🔺 Significantly higher than expected.
+BishopPair: Expected 35, Deviation 50 → 🔺 Significantly higher than expected.
+Defense: Expected 5, Deviation 50 → 🔺 Significantly higher than expected.
+CalculationDepth: Expected 15, Deviation 50 → 🔺 Significantly higher than expected.
+EndgameKnowledge: Expected 20, Deviation 50 → 🔺 Significantly higher than expected.
+PieceSacrifice: Expected 45, Deviation 50 → 🔺 Significantly higher than expected.
+CenterControl: Expected 30, Deviation 50 → 🔺 Significantly higher than expected.
+PositionClosure: Expected 12, Deviation 50 → 🔺 Significantly higher than expected.
+PieceTrade: Expected 10, Deviation 50 → 🔺 Significantly higher than expected.
+KingAttack: Expected 45, Deviation 50 → 🔺 Significantly higher than expected.
+PositionalSacrifice: Expected 18, Deviation 50 → 🔺 Significantly higher than expected.
+KnightVsBishop: Expected 22, Deviation 50 → 🔺 Significantly higher than expected.
+PawnPush: Expected 30, Deviation 50 → 🔺 Significantly higher than expected.
+OpenFileControl: Expected 35, Deviation 50 → 🔺 Significantly higher than expected.
+
+♟️ **Detected playstyle:** **ATTACKERS** ♜
+
+🏆 Best Fit: ATTACKERS (Dominant)
+Updating Aggressiveness: Expected=30, Deviation=4279.789999999999, Suggested=30
+Updating RiskTaking: Expected=30, Deviation=4279.789999999999, Suggested=30
+Updating KingSafety: Expected=10, Deviation=871.0680000000008, Suggested=10
+Updating PieceActivity: Expected=40, Deviation=3497.7479999999996, Suggested=35
+Updating PawnStructure: Expected=15, Deviation=1307.936000000001, Suggested=13
+Updating KnightPair: Expected=38, Deviation=3322.736, Suggested=33
+Updating BishopPair: Expected=35, Deviation=3059.9359999999997, Suggested=30
+Updating Defense: Expected=5, Deviation=441.69600000000025, Suggested=10
+Updating CalculationDepth: Expected=15, Deviation=3601.8388888888876, Suggested=14
+Updating EndgameKnowledge: Expected=20, Deviation=1745.9360000000008, Suggested=17
+Updating PieceSacrifice: Expected=45, Deviation=3932.057999999998, Suggested=45
+Updating CenterControl: Expected=30, Deviation=2621.936, Suggested=26
+Updating PositionClosure: Expected=12, Deviation=1045.468000000001, Suggested=10
+Updating PieceTrade: Expected=10, Deviation=871.0680000000008, Suggested=10
+Updating KingAttack: Expected=45, Deviation=3932.057999999998, Suggested=45
+Updating PositionalSacrifice: Expected=18, Deviation=1570.736000000001, Suggested=18
+Updating KnightVsBishop: Expected=22, Deviation=960.5679999999999, Suggested=21
+Updating PawnPush: Expected=30, Deviation=2621.936, Suggested=26
+Updating OpenFileControl: Expected=35, Deviation=3059.9359999999997, Suggested=30
+
+=== Analysis Complete ===

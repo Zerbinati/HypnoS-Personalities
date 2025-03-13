@@ -1,0 +1,20 @@
+{
+    "name": "Wei Yi",
+    "description": "A highly creative and attacking player, known for sharp tactical play, brilliant sacrifices, and relentless initiative.",
+    "Use Personality": true,
+    "Elo Rating": 2755,
+    "PersonalityBook": true,
+    "BookFile": "books/wei.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 85,
+        "KingSafety": 50,
+        "PieceActivity": 90,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Alexander Grischuk",
+    "description": "A dynamic and aggressive player, known for deep tactical play, strong opening preparation, and sharp time management skills.",
+    "Use Personality": true,
+    "Elo Rating": 2750,
+    "PersonalityBook": true,
+    "BookFile": "books/grischuk.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 85,
+        "KingSafety": 45,
+        "PieceActivity": 90,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

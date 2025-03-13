@@ -1,0 +1,20 @@
+{
+    "name": "G\u00e9za Mar\u00f3czy",
+    "description": "A highly positional player, known for strategic precision and controlling weak squares.",
+    "Use Personality": true,
+    "Elo Rating": 2820,
+    "PersonalityBook": true,
+    "BookFile": "books/maroczy.bin",
+    "BookWidth": 7,
+    "BookDepth": 14,
+    "evaluation": {
+        "Aggressiveness": 10,
+        "RiskTaking": -10,
+        "KingSafety": 75,
+        "PieceActivity": 55,
+        "PawnStructure": 85,
+        "KnightPair": 45,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

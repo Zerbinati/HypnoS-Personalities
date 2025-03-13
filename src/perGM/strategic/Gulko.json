@@ -1,0 +1,20 @@
+{
+    "name": "Boris Gulko",
+    "description": "A highly strategic and positional player, known for strong defensive skills, deep planning, and precise endgame play.",
+    "Use Personality": true,
+    "Elo Rating": 2724,
+    "PersonalityBook": true,
+    "BookFile": "books/gulko.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -5,
+        "RiskTaking": -15,
+        "KingSafety": 85,
+        "PieceActivity": 65,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

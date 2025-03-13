@@ -1,0 +1,20 @@
+{
+    "name": "Sofia Polgar",
+    "description": "A creative and attacking player, known for sharp tactical play, imaginative combinations, and dynamic piece play.",
+    "Use Personality": true,
+    "Elo Rating": 2450,
+    "PersonalityBook": true,
+    "BookFile": "books/sofia_polgar.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

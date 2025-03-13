@@ -1,0 +1,20 @@
+{
+    "name": "Ulf Andersson",
+    "description": "A highly solid and positional player, known for deep strategic understanding, prophylaxis, and strong endgame skills.",
+    "Use Personality": true,
+    "Elo Rating": 2743,
+    "PersonalityBook": true,
+    "BookFile": "books/andersson.bin",
+    "BookWidth": 6,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -20,
+        "RiskTaking": -30,
+        "KingSafety": 90,
+        "PieceActivity": 60,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

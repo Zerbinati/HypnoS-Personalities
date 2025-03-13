@@ -1,0 +1,20 @@
+{
+    "name": "Boris Gelfand",
+    "description": "A highly strategic and technical player, known for deep opening preparation, solid play, and strong endgame skills.",
+    "Use Personality": true,
+    "Elo Rating": 2763,
+    "PersonalityBook": true,
+    "BookFile": "books/gelfand.bin",
+    "BookWidth": 7,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": -5,
+        "RiskTaking": -15,
+        "KingSafety": 85,
+        "PieceActivity": 65,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

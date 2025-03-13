@@ -1,0 +1,116 @@
+PolyGlot Tolerant - Massimiliano Goi (c) 2023.
+
+PolyGlot Tolerant is a 64bit variation of Polyglot made more permissive
+through an addiction to its base code (in other words it won't stuck for errors on the games,
+it will just skip the games containing errors) and able to handle pgn archives larger than 2 GB.
+
+This program has been positively tested with large archives and small ones.
+
+
+HOW TO USE:
+
+In order to use PolyGlot Tolerant you must have a pgn archive file made by uncommented games.
+
+For example, this is the accepted format, where there are just moves:
+
+[Event ""]
+[Site "DESKTOP"]
+[Date "2018.12.17"]
+[Round "1"]
+[White "Goi 5.1 BIN upd.1"]
+[Black "Vitamin14_10nov2018"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[Annotator "0.28;-0.19"]
+[PlyCount "108"]
+[TimeControl "60"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.c3 d6 6.Nbd2 a5 7.Nf1 O-O 8.Ng3 Bb6
+9.O-O Be6 10.Bxe6 fxe6 11.Qb3 Qe8 12.a4 Nd7 13.Be3 Qg6 14.Nh4 Qe8 15.h3 
+Ra6 16.Bd2 Nc5 17.Qc2 Ra8 18.Rae1 Ne7 19.Bg5 Ng6 20.Nxg6 Qxg6 21.Be3 Rf7 
+22.Kh2 Nd7 23.Bxb6 Nxb6 24.f3 Qg5 25.Ne2 Raf8 26.b3 Nd7 27.Rb1 b6 28.b4 
+Ra8 29.Qa2 Nf8 30.Rfd1 Rf6 31.Qd2 Qh4 32.b5 Rd8 33.d4 Ng6 34.Qe3 Rdf8 35.
+Rf1 Qh5 36.Rf2 R6f7 37.Rbf1 Nf4 38.Qd2 Kh8 39.Nxf4 exf4 40.c4 Rd8 41.Rd1 
+e5 42.dxe5 Qxe5 43.Qd5 Re7 44.Qxe5 Rxe5 45.Rd5 h6 46.Rf1 g5 47.Rc1 Kg7 48.
+Kg1 Kf6 49.Kf2 Rxd5 50.cxd5 Rd7 51.g3 fxg3+ 52.Kxg3 Ke5 53.Kg4 Rh7 54.Rc6 
+Rf7 1/2-1/2
+
+While this is an unaccepted format:
+
+[Event "WIN-AGPOMB377GN, Blitz 1m+1s"]
+[Site "WIN-AGPOMB377GN"]
+[Date "2018.08.18"]
+[Round "1"]
+[White "Brainfish 140818 64 POPCNT"]
+[Black "Brainfish 140818 64 POPCNT2"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[Annotator "0.00;0.00"]
+[PlyCount "107"]
+[TimeControl "60+1"]
+
+{Intel(R) Xeon(R) CPU E7- 4870 @ 2.40GHz 2397 MHz W=41.4 plies; 72 277kN/s;
+29 743 978 TBAs; Blue 7-7.ctg B=38.7 plies; 72 293kN/s; 16 105 313 TBAs;
+Vitamin11_RC5_n4k_2j5_2018ago10.ctg} 1. e4 {[%eval 0,0] [%emt 0:00:00]} e5 {
+[%eval 0,0] [%emt 0:00:00]} 2. Nf3 {[%eval 0,0] [%emt 0:00:00]} Nc6 {[%eval 0,
+0] [%emt 0:00:00]} 3. Bc4 {[%eval 0,0] [%emt 0:00:00]} Bc5 {[%eval 0,0] [%emt
+0:00:00]} 4. d3 {[%eval 0,0] [%emt 0:00:00]} Nf6 {[%eval 0,0] [%emt 0:00:00]}
+5. O-O {[%eval 0,0] [%emt 0:00:00]} O-O {[%eval 0,0] [%emt 0:00:00]} 6. c3 {
+[%eval 0,0] [%emt 0:00:00]} d6 {[%eval 0,0] [%emt 0:00:00]} 7. Bg5 {[%eval 0,0]
+[%emt 0:00:00]} h6 {[%eval 0,0] [%emt 0:00:00]} 8. Bh4 {[%eval 0,0] [%emt 0:00:
+00]} a6 {[%eval 0,0] [%emt 0:00:00]} 9. a4 {[%eval 0,0] [%emt 0:00:00]} g5 {
+[%eval 0,0] [%emt 0:00:00]} 10. Bg3 {[%eval 0,0] [%emt 0:00:00]} Ba7 {[%eval 0,
+0] [%emt 0:00:00]} 11. Nbd2 {[%eval 0,0] [%emt 0:00:00]} Nh7 {[%eval 0,0] 
+[%emt 0:00:00]} 12. h3 {[%eval 0,0] [%emt 0:00:00]} h5 {[%eval 0,0] [%emt 0:00:
+00]} et cetera...
+
+
+In other words, if you have made a PGN archive with Chessbase you MUST FILTRATE IT with Scid.
+I advice to filtrate with Scid any archive before compiling it with PolyGlot Tolerant, though.
+
+The settings for Scid: Exporting are the followings:
+
+Add games to an existing file?			No
+Export comments?				No
+Strip square/arrow mark codes from comments?	No
+Indent comments?				No
+Export variations?				No
+Indent variations?				No
+Column style (one more per line)?		No
+Symbolic annotation style:			! +=
+
+Convert null moves to comments			Yes
+
+In order to compile the pgn file into a Polyglot book you must name it database.pgn
+and double click the file create.bat.
+
+
+----------------------------------------------------------------------------------------
+
+MERGE TWO BOOKS:
+You can also use the merge-book function to merge two Polyglot book paying attention
+that the first book, the book to the left, will have the priority on the second one:
+the main variants will remain the ones of the first book, with the addition of all
+the moves of the second book.
+
+In order to merge two books you must rename them book1.bin and book2.bin and double
+click the file merge.bat. Once the procedure is terminated a file called bookoutput.bin
+will appear. Then you can rename bookoutput.bin as you wish.
+
+
+----------------------------------------------------------------------------------------
+
+DISSECTING A POLYGLOT BOOK:
+You can 'dissect' a Polyglot book into three PGN archives in order to import its variants
+somewhere else. If you want to to this you must first install the Python language for
+Windows, then name the Polygloot book as book.bin and then double click on createpgn.bat.
+
+
+USING POLYGLOT TOLERANT AS A GATEWAY ON ARENA:
+You can use PolyGlot Tolerant as a gateway for the chess engines not supporting the Polyglot
+books on Arena by following the same procedures requested with the previous version of PolyGlot.
+
+
+That's all. I wish you a great book making!
+
+Massimiliano Goi

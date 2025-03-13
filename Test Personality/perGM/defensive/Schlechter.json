@@ -1,0 +1,20 @@
+{
+    "name": "Carl Schlechter",
+    "description": "An ultra-solid and defensive player, known for strong prophylaxis, deep strategic play, and exceptional endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2764,
+    "PersonalityBook": true,
+    "BookFile": "books/schlechter.bin",
+    "BookWidth": 6,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -20,
+        "RiskTaking": -30,
+        "KingSafety": 90,
+        "PieceActivity": 55,
+        "PawnStructure": 90,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

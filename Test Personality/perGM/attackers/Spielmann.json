@@ -1,0 +1,20 @@
+{
+    "name": "Rudolf Spielmann",
+    "description": "A fearless attacking player, known for brilliant sacrifices, open positions, and sharp tactical play.",
+    "Use Personality": true,
+    "Elo Rating": 2716,
+    "PersonalityBook": true,
+    "BookFile": "books/spielmann.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 90,
+        "KingSafety": 40,
+        "PieceActivity": 90,
+        "PawnStructure": 50,
+        "KnightPair": 55,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

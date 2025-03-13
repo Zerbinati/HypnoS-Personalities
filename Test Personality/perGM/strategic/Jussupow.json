@@ -1,0 +1,20 @@
+{
+    "name": "Artur Jussupow",
+    "description": "A highly strategic and universal player, known for strong positional play, deep theoretical knowledge, and resilient defense.",
+    "Use Personality": true,
+    "Elo Rating": 2757,
+    "PersonalityBook": true,
+    "BookFile": "books/jussupow.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 40,
+        "KingSafety": 75,
+        "PieceActivity": 70,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

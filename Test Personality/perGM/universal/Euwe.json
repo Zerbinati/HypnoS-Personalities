@@ -1,0 +1,20 @@
+{
+    "name": "Max Euwe",
+    "description": "A universal and logical player, known for balanced play, deep theoretical knowledge, and strategic adaptability.",
+    "Use Personality": true,
+    "Elo Rating": 2769,
+    "PersonalityBook": true,
+    "BookFile": "books/euwe.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 40,
+        "KingSafety": 70,
+        "PieceActivity": 75,
+        "PawnStructure": 75,
+        "KnightPair": 50,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

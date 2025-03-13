@@ -1,0 +1,18 @@
+{
+    "name": "Valery Salov",
+    "description": "A strategic and positional player, known for deep opening preparation, precise maneuvering, and solid play.",
+    "PersonalityBook": true,
+    "BookFile": "books/salov.bin",
+    "BookWidth": 7,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": -5,
+        "RiskTaking": -10,
+        "KingSafety": 30,
+        "PieceActivity": 20,
+        "PawnStructure": 15,
+        "KnightPair": 15,
+        "BishopPair": 10
+    },
+    "loss_streak": 0
+}

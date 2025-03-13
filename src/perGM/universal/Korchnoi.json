@@ -1,0 +1,20 @@
+{
+    "name": "Viktor Korchnoi",
+    "description": "A tenacious and resourceful player, known for defensive resilience and powerful counterattacks.",
+    "Use Personality": true,
+    "Elo Rating": 2814,
+    "PersonalityBook": true,
+    "BookFile": "books/korchnoi.bin",
+    "BookWidth": 9,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 40,
+        "RiskTaking": 30,
+        "KingSafety": 60,
+        "PieceActivity": 75,
+        "PawnStructure": 65,
+        "KnightPair": 50,
+        "BishopPair": 50
+    },
+    "loss_streak": 0
+}

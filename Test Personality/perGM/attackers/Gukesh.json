@@ -1,0 +1,20 @@
+{
+    "name": "Gukesh D",
+    "description": "A dynamic and aggressive player, known for sharp calculation, deep opening preparation, and relentless attacking play.",
+    "Use Personality": true,
+    "Elo Rating": 2777,
+    "PersonalityBook": true,
+    "BookFile": "books/gukesh.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

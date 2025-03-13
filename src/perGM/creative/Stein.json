@@ -1,0 +1,20 @@
+{
+    "name": "Leonid Stein",
+    "description": "A highly creative and attacking player, known for sharp tactical play, deep calculation, and strategic ingenuity.",
+    "Use Personality": true,
+    "Elo Rating": 2759,
+    "PersonalityBook": true,
+    "BookFile": "books/stein.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 90,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Johannes Zukertort",
+    "description": "A romantic and attacking player, known for tactical brilliance, sharp combinations, and aggressive play.",
+    "Use Personality": true,
+    "Elo Rating": 2798,
+    "PersonalityBook": true,
+    "BookFile": "books/zukertort.bin",
+    "BookWidth": 13,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 90,
+        "KingSafety": 35,
+        "PieceActivity": 88,
+        "PawnStructure": 45,
+        "KnightPair": 60,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Le Quang Liem",
+    "description": "A universal and dynamic player, known for strong calculation, deep preparation, and excellent endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2739,
+    "PersonalityBook": true,
+    "BookFile": "books/lequangliem.bin",
+    "BookWidth": 10,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 65,
+        "RiskTaking": 60,
+        "KingSafety": 70,
+        "PieceActivity": 80,
+        "PawnStructure": 75,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

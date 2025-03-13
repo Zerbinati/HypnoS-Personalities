@@ -1,0 +1,20 @@
+{
+    "name": "Dawid Janowsky",
+    "description": "An aggressive and dynamic player, known for fearless attacking play, strong bishop pair usage, and open game strategies.",
+    "Use Personality": true,
+    "Elo Rating": 2776,
+    "PersonalityBook": true,
+    "BookFile": "books/janowsky.bin",
+    "BookWidth": 13,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 80,
+        "KingSafety": 40,
+        "PieceActivity": 90,
+        "PawnStructure": 45,
+        "KnightPair": 50,
+        "BishopPair": 75
+    },
+    "loss_streak": 0
+}

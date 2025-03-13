@@ -1,0 +1,20 @@
+{
+    "name": "Efim Geller",
+    "description": "A dynamic and attacking player, known for deep opening preparation, strategic aggression, and sharp tactical play.",
+    "Use Personality": true,
+    "Elo Rating": 2765,
+    "PersonalityBook": true,
+    "BookFile": "books/geller.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

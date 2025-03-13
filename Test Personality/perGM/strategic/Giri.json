@@ -1,0 +1,20 @@
+{
+    "name": "Anish Giri",
+    "description": "A highly strategic and solid player, known for deep opening preparation, positional mastery, and precise play.",
+    "Use Personality": true,
+    "Elo Rating": 2728,
+    "PersonalityBook": true,
+    "BookFile": "books/giri.bin",
+    "BookWidth": 9,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 40,
+        "KingSafety": 85,
+        "PieceActivity": 75,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

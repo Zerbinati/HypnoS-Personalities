@@ -1,0 +1,20 @@
+{
+    "name": "Praggnanandhaa R",
+    "description": "A dynamic and aggressive player, known for sharp calculation, strong preparation, and fighting spirit.",
+    "Use Personality": true,
+    "Elo Rating": 2748,
+    "PersonalityBook": true,
+    "BookFile": "books/praggnanandhaa.bin",
+    "BookWidth": 11,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 60,
+        "PieceActivity": 85,
+        "PawnStructure": 70,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Peter Leko",
+    "description": "A highly solid and positional player, known for deep opening preparation, strong defense, and endgame mastery.",
+    "Use Personality": true,
+    "Elo Rating": 2768,
+    "PersonalityBook": true,
+    "BookFile": "books/leko.bin",
+    "BookWidth": 6,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -15,
+        "RiskTaking": -25,
+        "KingSafety": 85,
+        "PieceActivity": 55,
+        "PawnStructure": 80,
+        "KnightPair": 50,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

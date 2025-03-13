@@ -1,0 +1,20 @@
+{
+    "name": "Aleksandra Goryachkina",
+    "description": "A highly strategic and solid player, known for strong defensive skills, deep positional play, and excellent endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2546,
+    "PersonalityBook": true,
+    "BookFile": "books/goryachkina.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 45,
+        "RiskTaking": 35,
+        "KingSafety": 85,
+        "PieceActivity": 70,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

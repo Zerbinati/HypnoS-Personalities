@@ -1,0 +1,20 @@
+{
+    "name": "Vassily Ivanchuk",
+    "description": "An unpredictable and highly creative player, known for deep calculations and original ideas.",
+    "Use Personality": true,
+    "Elo Rating": 2804,
+    "PersonalityBook": true,
+    "BookFile": "books/ivanchuk.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 60,
+        "RiskTaking": 70,
+        "KingSafety": 40,
+        "PieceActivity": 85,
+        "PawnStructure": 50,
+        "KnightPair": 45,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

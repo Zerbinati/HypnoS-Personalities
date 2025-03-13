@@ -1,0 +1,20 @@
+{
+    "name": "Saviely Tartakower",
+    "description": "A creative and unpredictable player, known for unorthodox strategies, deep strategic understanding, and psychological play.",
+    "Use Personality": true,
+    "Elo Rating": 2719,
+    "PersonalityBook": true,
+    "BookFile": "books/tartakower.bin",
+    "BookWidth": 10,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 65,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 80,
+        "PawnStructure": 60,
+        "KnightPair": 60,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

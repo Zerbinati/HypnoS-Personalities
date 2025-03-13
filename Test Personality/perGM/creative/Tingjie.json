@@ -1,0 +1,20 @@
+{
+    "name": "Lei Tingjie",
+    "description": "A dynamic and aggressive player, known for strong tactical play, sharp opening preparation, and relentless fighting spirit.",
+    "Use Personality": true,
+    "Elo Rating": 2552,
+    "PersonalityBook": true,
+    "BookFile": "books/tingjie.bin",
+    "BookWidth": 10,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

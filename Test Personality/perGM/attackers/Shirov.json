@@ -1,0 +1,20 @@
+{
+    "name": "Alexei Shirov",
+    "description": "A highly aggressive and creative player, known for sharp tactics, dynamic sacrifices, and relentless attacks.",
+    "Use Personality": true,
+    "Elo Rating": 2768,
+    "PersonalityBook": true,
+    "BookFile": "books/shirov.bin",
+    "BookWidth": 13,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 85,
+        "KingSafety": 40,
+        "PieceActivity": 88,
+        "PawnStructure": 50,
+        "KnightPair": 60,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

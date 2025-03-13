@@ -1,0 +1,37 @@
+{
+    "name": "Aron Nimzowitsch",
+    "description": "A hypermodern and positional player, known for prophylaxis, piece maneuvering, and deep strategic concepts.",
+    "Use Personality": true,
+    "Elo Rating": 2780,
+    "PersonalityBook": true,
+    "BookFile": "books/nimzowitsch.bin",
+    "BookWidth": 7,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 35,
+        "RiskTaking": 30,
+        "KingSafety": 25,
+        "PieceActivity": 90,
+        "PawnStructure": 65,
+        "KnightPair": 60,
+        "BishopPair": 55,
+        "Defense": 60,
+        "CalculationDepth": 18,
+        "EndgameKnowledge": 90,
+        "PieceSacrifice": 35
+    },
+    "explanation": {
+        "Aggressiveness": "Nimzowitsch was primarily a positional player, but he also sought control of the board. Increased to 35 so he actively fights for space and initiative.",
+        "RiskTaking": "Although cautious, he was not completely risk-averse. Setting this to 30 allows him to take more strategic risks when needed.",
+        "KingSafety": "King safety remains important but reduced to 25 so he doesn\u2019t over-prioritize passive safety.",
+        "PieceActivity": "Nimzowitsch's hypermodern style relied on active piece play. Increasing this to 90 ensures he maneuvers pieces effectively.",
+        "PawnStructure": "He strongly emphasized structure and prophylaxis. Keeping this high at 65 maintains his solid positional foundation.",
+        "KnightPair": "Bonus for keeping both knights. He valued maneuvering, but knights were not his primary focus, so 60 is assigned.",
+        "BishopPair": "Though he favored minor piece maneuvering, bishops were strong in his plans, hence 55.",
+        "Defense": "Nimzowitsch was highly prophylactic, but reducing defense to 60 ensures he isn\u2019t too passive.",
+        "CalculationDepth": "His deep strategic vision is reflected by increasing CalculationDepth to 18 for better planning.",
+        "EndgameKnowledge": "He excelled in endgames due to structural mastery. Keeping this high at 90 ensures strong endgame play.",
+        "PieceSacrifice": "Though not a tactical player, he sometimes sacrificed pieces for positional gains. Increasing to 35 allows for calculated sacrifices."
+    },
+    "loss_streak": 0
+}

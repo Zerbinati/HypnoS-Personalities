@@ -1,0 +1,20 @@
+{
+    "name": "Miksa Weiss",
+    "description": "A strategic and solid player, known for strong positional understanding, deep calculation, and precise endgame play.",
+    "Use Personality": true,
+    "Elo Rating": 2727,
+    "PersonalityBook": true,
+    "BookFile": "books/weiss.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -5,
+        "RiskTaking": -10,
+        "KingSafety": 80,
+        "PieceActivity": 65,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

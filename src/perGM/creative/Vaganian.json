@@ -1,0 +1,20 @@
+{
+    "name": "Rafael Vaganian",
+    "description": "A highly creative and aggressive player, known for sharp tactical play, imaginative attacks, and relentless fighting spirit.",
+    "Use Personality": true,
+    "Elo Rating": 2761,
+    "PersonalityBook": true,
+    "BookFile": "books/vaganian.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 80,
+        "KingSafety": 50,
+        "PieceActivity": 90,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

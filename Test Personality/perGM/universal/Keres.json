@@ -1,0 +1,20 @@
+{
+    "name": "Paul Keres",
+    "description": "A universal and dynamic player, known for deep calculation, attacking play, and strong strategic understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2786,
+    "PersonalityBook": true,
+    "BookFile": "books/keres.bin",
+    "BookWidth": 10,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 60,
+        "RiskTaking": 70,
+        "KingSafety": 50,
+        "PieceActivity": 80,
+        "PawnStructure": 65,
+        "KnightPair": 50,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

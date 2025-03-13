@@ -1,0 +1,127 @@
+
+ 	       Player Name   	   Average Rating 
+ #1 	   Garry Kasparov   	   2886*
+ #2 	   Bobby Fischer   	       2895*
+ #3 	   José Capablanca   	   2877*  
+ #4 	   Emanuel Lasker   	   2878
+ #5 	   Mikhail Botvinnik   	   2885*
+ #6 	   Alexander Alekhine      2860*   
+ #7 	   Anatoly Karpov   	   2848*  
+ #8 	   Viswanathan Anand   	   2750
+ #9 	   Vladimir Kramnik   	   2826
+ #10 	   Harry Pillsbury   	   2816
+ #11 	   Géza Maróczy   	       2820
+ #12 	   Viktor Korchnoi   	   2814
+ #13 	   Siegbert Tarrasch   	   2824
+ #14 	   Vassily Ivanchuk   	   2804 
+ #15 	   Wilhelm Steinitz   	   2826
+ #16 	   Vassily Smyslov   	   2800 
+ #17 	   Tigran Petrosian   	   2796* 
+ #18 	   Mikhail Tal   	       2799*   
+ #19 	   Akiba Rubinstein   	   2789
+ #20 	   Samuel Reshevsky   	   2785 
+ #21 	   Miguel Najdorf   	   2797 
+ #22 	   Johannes Zukertort      2798
+ #23 	   Paul Keres   	       2786
+ #24 	   Aron Nimzowitsch   	   2780*   
+ #25 	   David Bronstein   	   2792
+ #26 	   Boris Spassky   	       2773
+ #27 	   Gata Kamsky   	       2779   
+ #28 	   Mikhail Chigorin   	   2797   
+ #29 	   Frank Marshall   	   2762 
+ #30 	   Peter Leko   	       2666*
+ #31 	   Dawid Janowsky   	   2776
+ #32 	   Reuben Fine   	       2762
+ #33 	   Veselin Topalov   	   2717 
+ #34 	   Valery Salov   	       2776   
+ #35 	   Boris Gelfand   	       2763 
+ #36 	   Alexei Shirov   	       2768 
+ #37 	   Efim Bogoljubow   	   2768
+ #38 	   Efim Geller   	       2765
+ #39 	   Alexander Morozevich    2768
+ #40 	   Max Euwe   	           2769  
+ #41 	   Michael Adams   	       2664 
+ #42 	   Lev Polugaevsky   	   2761  
+ #43 	   Alexander Beliavsky     2756  
+ #44 	   Jan Timman   	       2768   
+ #45 	   Carl Schlechter   	   2764 
+ #46 	   Lajos Portisch   	   2757
+ #47 	   Bent Larsen   	       2755   
+ #48 	   Alexander Kotov   	   2753
+ #49 	   Nigel Short   	       2750
+ #50 	   Ulf Andersson   	       2743  
+ #51 	   Svetozar Gligoric   	   2743  
+ #52 	   Mark Taimanov   	       2742
+ #53 	   Alexander Grischuk      2750   
+ #54 	   Judit Polgar   	       2675
+ #55 	   Ljubomir Ljubojevic     2735 
+ #56 	   Jonathan Speelman   	   2737
+ #57 	   Andrey Sokolov   	   2743  
+ #58 	   Paul Morphy   	       2743 
+ #59 	   László Szabó   	       2726 
+ #60 	   Rudolf Spielmann   	   2716  
+ #61 	   John Nunn   	   	       2715   
+ #62 	   Boris Gulko   	       2724   
+ #63       Joseph Blackburne       2748
+ #64       Miksa Weiss             2727
+ #65       Artur Jussupow          2757
+ #66       Saviely Tartakower      2719
+ #67       Pal Benko               2687*
+ #68       Carlsen Magnus          2833
+ #69       Caruana Fabiano         2803
+ #70       Nakamura Hikaru         2802
+ #71       Erigaisi Arjun          2801
+ #72       Gukesh D                2777
+ #73       Abdusattorov Nodirbek   2766
+ #74       Firouzja Alireza        2760
+ #75       Wei Yi                  2755
+ #76       Nepomniachtchi Ian      2754
+ #77       So Wesley               2747
+ #78       Aronian Levon           2745
+ #79  Leinier Domínguez Pérez      2741
+ #80       Praggnanandhaa R        2741
+ #81       Duda Jan-Krzysztof      2739
+ #82       Le Quang Liem           2739 
+ #83       Ding Liren              2734
+ #84       Vachier-Lagrave Maxime  2729
+ #85       Giri Anish              2728
+ #86       Hou Yifan               2633
+ #87       Ju Wenjun               2561
+ #88       Tan Zhongyi             2561
+ #89       Lei Tingjie             2552
+ #90       Goryachkina Aleksandra  2546
+ #91       Divya Deshmukh          2490
+ #92       Sergei Tiviakov         2531
+ #93       Sergey Karjakin         2616*
+ #94       Evgeny Bareev           2611
+ #95       Susan Polgar            2577
+ #96       Sofia Polgar            2450
+ #97       Leonid Stein            2759
+ #98       Rafael Vaganian         2761
+ #99       Vitaly Tseshkovsky      2721
+#100       Ruslan Ponomariov       2753
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

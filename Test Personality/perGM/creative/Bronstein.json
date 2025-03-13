@@ -1,0 +1,20 @@
+{
+    "name": "David Bronstein",
+    "description": "A creative and experimental player, known for deep tactical ideas, unexpected sacrifices, and innovative opening play.",
+    "Use Personality": true,
+    "Elo Rating": 2792,
+    "PersonalityBook": true,
+    "BookFile": "books/bronstein.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 80,
+        "KingSafety": 45,
+        "PieceActivity": 85,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

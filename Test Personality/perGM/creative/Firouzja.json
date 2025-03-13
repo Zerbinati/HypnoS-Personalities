@@ -1,0 +1,20 @@
+{
+    "name": "Firouzja Alireza",
+    "description": "A highly creative and aggressive player, known for fast calculation, sharp attacking play, and fearless sacrifices.",
+    "Use Personality": true,
+    "Elo Rating": 2760,
+    "PersonalityBook": true,
+    "BookFile": "books/firouzja.bin",
+    "BookWidth": 13,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 85,
+        "RiskTaking": 90,
+        "KingSafety": 50,
+        "PieceActivity": 90,
+        "PawnStructure": 55,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

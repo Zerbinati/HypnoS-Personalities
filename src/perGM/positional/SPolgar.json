@@ -1,0 +1,20 @@
+{
+    "name": "Susan Polgar",
+    "description": "A positional and strategic player, known for deep calculation, strong prophylaxis, and excellent technical skills.",
+    "Use Personality": true,
+    "Elo Rating": 2577,
+    "PersonalityBook": true,
+    "BookFile": "books/spolgar.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 5,
+        "RiskTaking": -5,
+        "KingSafety": 80,
+        "PieceActivity": 75,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

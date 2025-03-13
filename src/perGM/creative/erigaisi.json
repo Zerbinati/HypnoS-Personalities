@@ -1,0 +1,20 @@
+{
+    "name": "Erigaisi Arjun",
+    "description": "A dynamic and aggressive player, known for fast calculation, tactical sharpness, and flexible strategic play.",
+    "Use Personality": true,
+    "Elo Rating": 2801,
+    "PersonalityBook": true,
+    "BookFile": "books/erigaisi.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

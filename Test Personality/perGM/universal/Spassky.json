@@ -1,0 +1,20 @@
+{
+    "name": "Boris Spassky",
+    "description": "A universal and dynamic player, known for adaptability, piece activity, and strategic flexibility.",
+    "Use Personality": true,
+    "Elo Rating": 2773,
+    "PersonalityBook": true,
+    "BookFile": "books/spassky.bin",
+    "BookWidth": 9,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 55,
+        "KingSafety": 60,
+        "PieceActivity": 80,
+        "PawnStructure": 65,
+        "KnightPair": 50,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

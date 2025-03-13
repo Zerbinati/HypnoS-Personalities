@@ -1,0 +1,20 @@
+{
+    "name": "Mikhail Chigorin",
+    "description": "A creative and attacking player, known for dynamic knight play, tactical ingenuity, and aggressive strategies.",
+    "Use Personality": true,
+    "Elo Rating": 2797,
+    "PersonalityBook": true,
+    "BookFile": "books/chigorin.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 85,
+        "KingSafety": 45,
+        "PieceActivity": 85,
+        "PawnStructure": 50,
+        "KnightPair": 75,
+        "BishopPair": 50
+    },
+    "loss_streak": 0
+}

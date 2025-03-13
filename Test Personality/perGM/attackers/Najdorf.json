@@ -1,0 +1,20 @@
+{
+    "name": "Miguel Najdorf",
+    "description": "An aggressive and creative player, known for sharp tactical play, deep calculation, and fighting for the initiative.",
+    "Use Personality": true,
+    "Elo Rating": 2797,
+    "PersonalityBook": true,
+    "BookFile": "books/najdorf.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 85,
+        "KingSafety": 40,
+        "PieceActivity": 85,
+        "PawnStructure": 50,
+        "KnightPair": 55,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

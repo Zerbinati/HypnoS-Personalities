@@ -1,0 +1,20 @@
+{
+    "name": "Vladimir Kramnik",
+    "description": "A defensive and strategic player, known for deep opening preparation and strong prophylaxis.",
+    "Use Personality": true,
+    "Elo Rating": 2826,
+    "PersonalityBook": true,
+    "BookFile": "books/kramnik.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 85,
+        "PieceActivity": 50,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 45
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Gata Kamsky",
+    "description": "A solid and resilient player, known for defensive mastery, deep positional play, and strong endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2779,
+    "PersonalityBook": true,
+    "BookFile": "books/kamsky.bin",
+    "BookWidth": 6,
+    "BookDepth": 14,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 80,
+        "PieceActivity": 60,
+        "PawnStructure": 85,
+        "KnightPair": 50,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

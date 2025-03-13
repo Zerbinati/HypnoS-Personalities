@@ -1,0 +1,104 @@
+{
+    "Capablanca": {
+        "elo": 2794,
+        "games": 69.0,
+        "won": 41,
+        "avg_opp": 2758.5,
+        "matches": [
+            {
+                "opponent": "Tal",
+                "opp_elo": 2784,
+                "result": "12.5-7.5"
+            },
+            {
+                "opponent": "Larsen",
+                "opp_elo": 2751,
+                "result": "13.5-6.5"
+            },
+            {
+                "opponent": "Larsen",
+                "opp_elo": 2818,
+                "result": "16.0-13.0"
+            }
+        ],
+        "history": [
+            {
+                "total_games": 20.0,
+                "elo": 2875
+            },
+            {
+                "total_games": 40.0,
+                "elo": 2879
+            },
+            {
+                "total_games": 69.0,
+                "elo": 2794
+            }
+        ]
+    },
+    "Tal": {
+        "elo": 2773,
+        "games": 40.0,
+        "won": 18,
+        "avg_opp": 2805.5,
+        "matches": [
+            {
+                "opponent": "Capablanca",
+                "opp_elo": 2875,
+                "result": "7.5-12.5"
+            },
+            {
+                "opponent": "Larsen",
+                "opp_elo": 2733,
+                "result": "11.0-9.0"
+            }
+        ],
+        "history": [
+            {
+                "total_games": 20.0,
+                "elo": 2784
+            },
+            {
+                "total_games": 40.0,
+                "elo": 2773
+            }
+        ]
+    },
+    "Larsen": {
+        "elo": 2818,
+        "games": 69.0,
+        "won": 28,
+        "avg_opp": 2841.9,
+        "matches": [
+            {
+                "opponent": "Capablanca",
+                "opp_elo": 2879,
+                "result": "6.5-13.5"
+            },
+            {
+                "opponent": "Tal",
+                "opp_elo": 2773,
+                "result": "9.0-11.0"
+            },
+            {
+                "opponent": "Capablanca",
+                "opp_elo": 2794,
+                "result": "13.0-16.0"
+            }
+        ],
+        "history": [
+            {
+                "total_games": 20.0,
+                "elo": 2751
+            },
+            {
+                "total_games": 40.0,
+                "elo": 2733
+            },
+            {
+                "total_games": 69.0,
+                "elo": 2818
+            }
+        ]
+    }
+}

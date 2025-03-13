@@ -1,0 +1,20 @@
+{
+    "name": "Ian Nepomniachtchi",
+    "description": "A fast and dynamic player, known for sharp tactical play, deep opening preparation, and strong initiative.",
+    "Use Personality": true,
+    "Elo Rating": 2754,
+    "PersonalityBook": true,
+    "BookFile": "books/nepomniachtchi.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

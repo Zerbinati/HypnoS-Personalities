@@ -1,0 +1,20 @@
+{
+    "name": "Jonathan Speelman",
+    "description": "A creative and deep-thinking player, known for original ideas, strong calculation, and excellent endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2737,
+    "PersonalityBook": true,
+    "BookFile": "books/speelman.bin",
+    "BookWidth": 9,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 60,
+        "RiskTaking": 50,
+        "KingSafety": 65,
+        "PieceActivity": 75,
+        "PawnStructure": 70,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

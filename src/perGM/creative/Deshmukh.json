@@ -1,0 +1,20 @@
+{
+    "name": "Divya Deshmukh",
+    "description": "A dynamic and aggressive player, known for sharp tactical play, fast calculation, and strong attacking instincts.",
+    "Use Personality": true,
+    "Elo Rating": 2490,
+    "PersonalityBook": true,
+    "BookFile": "books/deshmukh.bin",
+    "BookWidth": 10,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

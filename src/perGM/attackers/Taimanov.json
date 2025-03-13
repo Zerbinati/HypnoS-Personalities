@@ -1,0 +1,20 @@
+{
+    "name": "Mark Taimanov",
+    "description": "A dynamic and creative player, known for sharp theoretical preparation, strong strategic attacks, and deep calculation.",
+    "Use Personality": true,
+    "Elo Rating": 2742,
+    "PersonalityBook": true,
+    "BookFile": "books/taimanov.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 65,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

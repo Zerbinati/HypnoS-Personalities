@@ -1,0 +1,20 @@
+{
+    "name": "Ljubomir Ljubojevic",
+    "description": "A creative and aggressive player, known for dynamic piece play, tactical brilliance, and fighting spirit.",
+    "Use Personality": true,
+    "Elo Rating": 2735,
+    "PersonalityBook": true,
+    "BookFile": "books/ljubojevic.bin",
+    "BookWidth": 12,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

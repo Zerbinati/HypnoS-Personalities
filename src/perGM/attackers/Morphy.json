@@ -1,0 +1,20 @@
+{
+    "name": "Paul Morphy",
+    "description": "A tactical and attacking genius, known for rapid piece development, sharp combinations, and elegant sacrifices.",
+    "Use Personality": true,
+    "Elo Rating": 2743,
+    "PersonalityBook": true,
+    "BookFile": "books/morphy.bin",
+    "BookWidth": 14,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 90,
+        "RiskTaking": 85,
+        "KingSafety": 50,
+        "PieceActivity": 95,
+        "PawnStructure": 50,
+        "KnightPair": 60,
+        "BishopPair": 65
+    },
+    "loss_streak": 0
+}

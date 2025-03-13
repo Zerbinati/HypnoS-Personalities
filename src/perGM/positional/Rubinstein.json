@@ -1,0 +1,20 @@
+{
+    "name": "Akiba Rubinstein",
+    "description": "A strategic and endgame master, known for precise maneuvering, strong pawn structures, and deep positional understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2789,
+    "PersonalityBook": true,
+    "BookFile": "books/rubinstein.bin",
+    "BookWidth": 6,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": -10,
+        "RiskTaking": -20,
+        "KingSafety": 80,
+        "PieceActivity": 60,
+        "PawnStructure": 90,
+        "KnightPair": 55,
+        "BishopPair": 70
+    },
+    "loss_streak": 0
+}

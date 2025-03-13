@@ -1,0 +1,20 @@
+{
+    "name": "Vassily Smyslov",
+    "description": "A positional and endgame master, known for piece harmony, strategic maneuvering, and a deep understanding of endings.",
+    "Use Personality": true,
+    "Elo Rating": 2800,
+    "PersonalityBook": true,
+    "BookFile": "books/smyslov.bin",
+    "BookWidth": 7,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": -5,
+        "RiskTaking": -10,
+        "KingSafety": 70,
+        "PieceActivity": 75,
+        "PawnStructure": 75,
+        "KnightPair": 40,
+        "BishopPair": 70
+    },
+    "loss_streak": 0
+}

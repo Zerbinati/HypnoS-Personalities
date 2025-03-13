@@ -1,0 +1,20 @@
+{
+    "name": "Reuben Fine",
+    "description": "A universal and pragmatic player, known for strong endgame skills, logical play, and deep strategic understanding.",
+    "Use Personality": true,
+    "Elo Rating": 2762,
+    "PersonalityBook": true,
+    "BookFile": "books/fine.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 40,
+        "RiskTaking": 30,
+        "KingSafety": 70,
+        "PieceActivity": 75,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Leinier Dom\u00ednguez P\u00e9rez",
+    "description": "A highly strategic and solid player, known for deep opening preparation, strong endgame technique, and defensive resilience.",
+    "Use Personality": true,
+    "Elo Rating": 2741,
+    "PersonalityBook": true,
+    "BookFile": "books/dominguez.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 50,
+        "RiskTaking": 45,
+        "KingSafety": 75,
+        "PieceActivity": 70,
+        "PawnStructure": 80,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

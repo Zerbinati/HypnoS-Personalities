@@ -1,0 +1,20 @@
+{
+    "name": "Samuel Reshevsky",
+    "description": "A universal and resilient player, known for solid positional play, strong defense, and counterattacking skills.",
+    "Use Personality": true,
+    "Elo Rating": 2785,
+    "PersonalityBook": true,
+    "BookFile": "books/reshevsky.bin",
+    "BookWidth": 8,
+    "BookDepth": 15,
+    "evaluation": {
+        "Aggressiveness": 10,
+        "RiskTaking": -5,
+        "KingSafety": 75,
+        "PieceActivity": 70,
+        "PawnStructure": 70,
+        "KnightPair": 50,
+        "BishopPair": 50
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Alexander Beliavsky",
+    "description": "A dynamic and aggressive player, known for tactical sharpness, deep calculation, and strong fighting spirit.",
+    "Use Personality": true,
+    "Elo Rating": 2756,
+    "PersonalityBook": true,
+    "BookFile": "books/beliavsky.bin",
+    "BookWidth": 11,
+    "BookDepth": 17,
+    "evaluation": {
+        "Aggressiveness": 80,
+        "RiskTaking": 75,
+        "KingSafety": 50,
+        "PieceActivity": 85,
+        "PawnStructure": 60,
+        "KnightPair": 55,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}

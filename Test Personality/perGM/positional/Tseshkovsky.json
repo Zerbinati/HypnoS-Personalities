@@ -1,0 +1,20 @@
+{
+    "name": "Vitaly Tseshkovsky",
+    "description": "A highly positional and strategic player, known for deep maneuvering, prophylaxis, and strong endgame technique.",
+    "Use Personality": true,
+    "Elo Rating": 2721,
+    "PersonalityBook": true,
+    "BookFile": "books/tseshkovsky.bin",
+    "BookWidth": 8,
+    "BookDepth": 16,
+    "evaluation": {
+        "Aggressiveness": 10,
+        "RiskTaking": -10,
+        "KingSafety": 85,
+        "PieceActivity": 70,
+        "PawnStructure": 85,
+        "KnightPair": 55,
+        "BishopPair": 55
+    },
+    "loss_streak": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Levon Aronian",
+    "description": "A highly creative and dynamic player, known for deep opening preparation, sharp tactical play, and strategic flexibility.",
+    "Use Personality": true,
+    "Elo Rating": 2745,
+    "PersonalityBook": true,
+    "BookFile": "books/aronian.bin",
+    "BookWidth": 12,
+    "BookDepth": 18,
+    "evaluation": {
+        "Aggressiveness": 75,
+        "RiskTaking": 70,
+        "KingSafety": 55,
+        "PieceActivity": 85,
+        "PawnStructure": 70,
+        "KnightPair": 60,
+        "BishopPair": 60
+    },
+    "loss_streak": 0
+}
